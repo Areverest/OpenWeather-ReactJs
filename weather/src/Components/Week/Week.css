@@ -1,0 +1,118 @@
+
+.day-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 16px;
+
+    width: 160px;
+    height: 168px;
+
+    /* background: rgba(255, 255, 255, 0.25); */
+    border-radius: 16px;
+
+
+}
+
+.day-name {
+    width: 128px;
+    height: 24px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135%;
+    /* or 24px */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+}
+
+
+.temp-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 128px;
+    height: 32px;
+}
+
+.d-n-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 16px;
+
+    width: 56px;
+    height: 32px;
+
+}
+
+.day-temp {
+    width: 23px;
+    height: 32px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 135%;
+    /* or 32px */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+}
+
+.night-temp {
+    width: 17px;
+    height: 24px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135%;
+    /* or 24px */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+    opacity: 0.5;
+
+}
+
+.ico {
+    margin-top: -15%;
+    margin-bottom: -15%;
+
+}
+
+.bg {
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+  }
+  form:first-child .change {
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+  }
+  
+  .day-box {
+    padding: 16px;
+    cursor: pointer;
+  }
